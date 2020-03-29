@@ -7,7 +7,10 @@
     "author": "Marcel Duran <yslow@marcelduran.com> (http://yslow.org)",
     "main": "./lib/yslow",
     "bin": {"yslow": "./bin/yslow"},
-    "repository": {"type": "", "url": ""},
+    "repository": {"type": "git", "url": "git+https://github.com/jshawl/yslow.git"},
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@jshawl"
+    },
     "dependencies": {
         "jsdom": ">=0.2.10",
         "commander": ">=0.2.0"
